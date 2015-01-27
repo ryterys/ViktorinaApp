@@ -16,7 +16,7 @@ namespace ViktorinaApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Titulinis());
+            Application.Run(new Zaidimas());
         }
     }
 }
