@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ViktorinaApp
 {
-    public partial class Form1 : Form
+    public partial class Zaidimas : Form
     {
-        public Form1()
+        public Zaidimas()
         {
             InitializeComponent();
         }
