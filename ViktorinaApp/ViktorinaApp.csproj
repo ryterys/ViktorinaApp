@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lenta.Designer.cs">
+      <DependentUpon>Lenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Titulinis.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +58,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zaidimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaidimas.Designer.cs">
+      <DependentUpon>Zaidimas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Titulinis.resx">
       <DependentUpon>Titulinis.cs</DependentUpon>
     </EmbeddedResource>
