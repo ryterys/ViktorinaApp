@@ -63,6 +63,7 @@
             this.btnZaisti.TabIndex = 2;
             this.btnZaisti.Text = "ŽAISTI";
             this.btnZaisti.UseVisualStyleBackColor = true;
+            this.btnZaisti.Click += new System.EventHandler(this.btnZaisti_Click);
             // 
             // btnLenta
             // 
@@ -73,6 +74,7 @@
             this.btnLenta.TabIndex = 3;
             this.btnLenta.Text = "LENTA";
             this.btnLenta.UseVisualStyleBackColor = true;
+            this.btnLenta.Click += new System.EventHandler(this.btnLenta_Click);
             // 
             // Titulinis
             // 
